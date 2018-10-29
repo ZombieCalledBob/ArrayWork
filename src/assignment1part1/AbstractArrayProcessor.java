@@ -31,7 +31,7 @@ public abstract class AbstractArrayProcessor implements ArrayProcessor {
     public String example() {
         double[] a = new double[]{10.0, 20.0, 30.0, 40.0, 35.0, 25.0, 45.0, 15.0, 5.0, 22.0,
                                   47.0, 16.0, 28.0, 12.0, 15.0, 27.0, 33.0,  9.1, 3.4, 44.0};
-        return "The input array " + Arrays.toString(a) + " would return " + Arrays.toString(execute(a));
+        return "The input array \n" + Arrays.toString(a) + "\n would return \n" + Arrays.toString(execute(a));
     }
     
     public String toString() {
